@@ -1,3 +1,3 @@
-# 420-XXX-LI-EM
+# 420-FAH-LI-EM
 
-Gabarit de notes de cours
+Notes de cours Développement informatique
