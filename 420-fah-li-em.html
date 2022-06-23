@@ -155,6 +155,8 @@ Error message and password prompt
 
 <li>$:/state/toc/Table des matières-02 Systèmes de contrôle de version--249536019</li>
 
+<li>$:/state/toc/Table des matières/01 Diagrammes de classe UML-1.02 Diagrammes de classes--249536019</li>
+
 <li>$:/StoryList</li>
 
 <li>$:/temp/info-plugin</li>
@@ -177,6 +179,12 @@ Error message and password prompt
 
 <li>1.02 Diagrammes de classes</li>
 
+<li>1.03 Logiciels UML</li>
+
+<li>1.2.01 Le diagramme d'une classe</li>
+
+<li>1.Exercices</li>
+
 <li>2.01 Introduction</li>
 
 <li>css</li>
@@ -184,6 +192,8 @@ Error message and password prompt
 <li>Glossaire</li>
 
 <li>macros</li>
+
+<li>Semainier</li>
 
 <li>Table des matières</li>
 
@@ -8734,8 +8744,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div bag="default" created="20181113130709099" modified="20181113130716468" revision="0" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki">
-<pre>[[Table des matières]]</pre>
+<div bag="default" created="20181113130709099" modified="20220623153438864" revision="0" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki">
+<pre>[[Semainier]]
+[[Table des matières]]</pre>
 </div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
@@ -8815,16 +8826,19 @@ Error message and password prompt
 <div created="20220623110405281" modified="20220623110405281" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20220623110407925" modified="20220623110407925" title="$:/state/sidebar">
-<pre>no</pre>
+<div created="20220623110407925" modified="20220623123814148" title="$:/state/sidebar">
+<pre>yes</pre>
 </div>
-<div created="20220622191805667" modified="20220623110141534" title="$:/state/toc/Table des matières-01 Diagrammes de classe UML--249536019">
+<div created="20220622191805667" modified="20220623152857625" title="$:/state/toc/Table des matières-01 Diagrammes de classe UML--249536019">
 <pre>open</pre>
 </div>
 <div created="20220622191803003" modified="20220622191803983" title="$:/state/toc/Table des matières-02 Systèmes de contrôle de version--249536019">
 <pre>close</pre>
 </div>
-<div list="[[Table des matières]] [[1.01 UML]]" title="$:/StoryList">
+<div created="20220623144907257" modified="20220623152903147" title="$:/state/toc/Table des matières/01 Diagrammes de classe UML-1.02 Diagrammes de classes--249536019">
+<pre>open</pre>
+</div>
+<div list="$:/ControlPanel Semainier [[Table des matières]] 1.Exercices" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -8872,11 +8886,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1728&quot;
+            &quot;text&quot;: &quot;3072&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;3073&quot;
+            &quot;text&quot;: &quot;1729&quot;
         }
     }
 }</pre>
@@ -9036,8 +9050,106 @@ Error message and password prompt
 
 [img[Source: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/|https://i.imgur.com/64dRt4E.png]]</pre>
 </div>
-<div created="20220622191639683" modified="20220622191653325" tags="[[01 Diagrammes de classe UML]]" title="1.02 Diagrammes de classes">
-<pre></pre>
+<div created="20220622191639683" modified="20220623142815683" tags="[[01 Diagrammes de classe UML]]" title="1.02 Diagrammes de classes">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+
+&lt;$macrocall $name=&quot;toc-selective-expandable&quot; tag=&lt;&lt;currentTiddler&gt;&gt;/&gt;
+
+&lt;/div&gt;</pre>
+</div>
+<div created="20220623123743522" modified="20220623145333601" tags="[[01 Diagrammes de classe UML]]" title="1.03 Logiciels UML">
+<pre>Plusieurs logiciels de modélisation UML [[existent|https://socialcompare.com/en/comparison/uml-tools]].
+
+Citons entre autres:
+
+* Microsoft Visio Professionnel (disponible sur le [[portail Azure|https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software]])
+* [[Yed Live|https://www.yworks.com/yed-live/]]
+* [[diagrams.net|https://app.diagrams.net/]]
+* [[Visual Paradigm|https://www.visual-paradigm.com/download/community.jsp]]
+
+Vous pouvez les essayer et les comparer en termes de fonctionnalités et de facilité d'utilisation.</pre>
+</div>
+<div created="20220623142715057" modified="20220623152756416" tags="[[1.02 Diagrammes de classes]]" title="1.2.01 Le diagramme d'une classe">
+<pre>Dans ce cours, nous nous concentrerons surtout sur les diagrammes de classes UML.
+
+Un diagramme de classes sert à modéliser une application orientée objet en présentant ses classes avec leurs attributs et leurs méthodes, ainsi que les liens entre les classes.
+
+! La classe
+
+À la base, une classe sera représentée par un rectangle comprenant trois sections:
+
+# le nom de la classe;
+# les attributs;
+# les méthodes (aussi appelées //opérations//).&lt;div&gt;
+
+| &amp;nbsp;&amp;nbsp;&amp;nbsp;''Nom de classe''&amp;nbsp;&amp;nbsp;&amp;nbsp; |
+|(attributs) |
+|(méthodes/opérations) |
+&lt;/div&gt;
+
+!! Le nom de la classe
+
+Le nom de la classe est simplement le nom complet d'une classe, écrit avec les caractéristiques suivantes:
+
+* Première lettre en majuscule
+* Centré
+* En gras
+* En italique s'il s'agit d'une classe abstraite (à voir plus tard)
+
+!! Les attributs
+
+On écrira chaque attribut de la classe en insérant les éléments suivants, dans l'ordre:
+
+# on indique d'abord la visibilité avec l'un des symboles suivants:
+#* ''+'' &amp;rArr; public
+#* ''-'' &amp;rArr; privé
+#* ''~'' &amp;rArr; paquetage (//inline//)
+#* ''#'' &amp;rArr; protégé (à voir plus tard)
+
+# le nom de l'attribut;
+
+# le type de l'attribut précédé d'un deux-points ('':'');
+
+# on peut préciser la présence d'un accesseur et/ou d'un mutateur entre accolades, sans les définir.&lt;div&gt;
+
+Ex.:
+
+| !Personne |
+|+Nom : string { get; -set; }&lt;br&gt;+Age : string { get; } &lt;br&gt;-_dateNaissance : ~DateTime |
+| &amp;nbsp; |
+
+ Le «-set;» ci-dessus indique un mutateur privé.
+&lt;/div&gt;
+
+!! Les méthodes/opérations
+
+Comme pour les attributs, avec les différences suivantes:
+
+* le type est indiqué seulement s'il y a un type de retour, le cas échéant
+* on met les arguments dans les parenthèses&lt;div&gt;
+
+Ex.:
+
+| !Personne |
+|+Nom : string { get; -set; }&lt;br&gt;+Age : string { get; } &lt;br&gt;-_dateNaissance : ~DateTime |
+|+Personne(string nom, ~DateTime dateNaissance) : Personne&lt;br&gt;+Renommer(string nom)|
+
+Le méthode Personne() ci-dessus est le constructeur.
+&lt;/div&gt;
+
+---
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/7e5d754a-b3b1-449c-a1be-ab6e9a60f1d2?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
+</div>
+<div created="20220623143644530" modified="20220623153212151" tags="[[01 Diagrammes de classe UML]]" title="1.Exercices">
+<pre>''Note:'' chaque exercice de n'importe quelle section ''doit'' être fait et présenté à l'enseignant et pourrait être inclus dans un travail pratique à venir.
+
+# Modélisez chaque classe (seulement les classes, pas les liens) du [[projet du Pendu initial|https://lecegeplimoilou-my.sharepoint.com/:u:/g/personal/eric_martel_cegeplimoilou_ca/EbCwO6DjmEdOqeODw7FlfgIBYeyp3dGMFDRSwh7naKSN7Q?e=PJbAPT&amp;download=1]] avec les logiciels suivants:
+
+#* Microsoft Visio Professionnel (disponible sur le [[portail Azure|https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software]])
+#* [[Yed Live|https://www.yworks.com/yed-live/]]
+#* [[diagrams.net|https://app.diagrams.net/]]
+#* [[Visual Paradigm|https://www.visual-paradigm.com/download/community.jsp]]</pre>
 </div>
 <div created="20220622191725220" modified="20220622191754197" tags="[[02 Systèmes de contrôle de version]]" title="2.01 Introduction">
 <pre></pre>
@@ -9096,6 +9208,10 @@ pre, code {
 &lt;&lt;list-links filter:&quot;[tag&lt;currentTiddler&gt;] +[sort[title]]&quot;&gt;&gt;
 &lt;/p&gt;
 \end</pre>
+</div>
+<div created="20220623152814314" modified="20220623152854662" tags="" title="Semainier">
+<pre>| Semaine | Sections à l'étude | Exercices / Travaux |h
+| 1 (20 juin) | 1 | 1.Exercices |</pre>
 </div>
 <div bag="default" caption="Contenu" created="20181113130821883" list-before="$:/core/ui/SideBar/Open" modified="20181113131023314" revision="0" tags="$:/tags/SideBar" title="Table des matières" type="text/vnd.tiddlywiki">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
