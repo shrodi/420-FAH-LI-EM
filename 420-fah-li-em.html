@@ -8831,16 +8831,16 @@ Error message and password prompt
 <div created="20220623110407925" modified="20220629125706138" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20220622191805667" modified="20220629125709106" title="$:/state/toc/Table des matières-01 Diagrammes de classe UML--249536019">
-<pre>close</pre>
+<div created="20220622191805667" modified="20220630161034499" title="$:/state/toc/Table des matières-01 Diagrammes de classe UML--249536019">
+<pre>open</pre>
 </div>
 <div created="20220622191803003" modified="20220622191803983" title="$:/state/toc/Table des matières-02 Systèmes de contrôle de version--249536019">
 <pre>close</pre>
 </div>
-<div created="20220623144907257" modified="20220629125707852" title="$:/state/toc/Table des matières/01 Diagrammes de classe UML-1.02 Diagrammes de classes--249536019">
-<pre>close</pre>
+<div created="20220623144907257" modified="20220630161802417" title="$:/state/toc/Table des matières/01 Diagrammes de classe UML-1.02 Diagrammes de classes--249536019">
+<pre>open</pre>
 </div>
-<div list="Semainier [[Table des matières]]" title="$:/StoryList">
+<div list="Semainier [[Table des matières]] [[1.2.02 Les relations de base]] 1.Exercices" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -8856,7 +8856,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///E:/Users/Eric/OneDrive%20-%20C%C3%A9gep%20Limoilou/svn/Cours/420-FAH%20D%C3%A9v%20info/420-fah-li-em.svn/420-fah-li-em.html&quot;
+            &quot;text&quot;: &quot;file:///C:/Users/e/OneDrive%20-%20C%C3%A9gep%20Limoilou/svn/Cours/420-FAH%20D%C3%A9v%20info/420-fah-li-em.svn/420-fah-li-em.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -8876,7 +8876,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/E:/Users/Eric/OneDrive%20-%20C%C3%A9gep%20Limoilou/svn/Cours/420-FAH%20D%C3%A9v%20info/420-fah-li-em.svn/420-fah-li-em.html&quot;
+            &quot;text&quot;: &quot;/C:/Users/e/OneDrive%20-%20C%C3%A9gep%20Limoilou/svn/Cours/420-FAH%20D%C3%A9v%20info/420-fah-li-em.svn/420-fah-li-em.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -8888,11 +8888,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;3072&quot;
+            &quot;text&quot;: &quot;1707&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1728&quot;
+            &quot;text&quot;: &quot;1067&quot;
         }
     }
 }</pre>
@@ -9143,13 +9143,15 @@ Le méthode Personne() ci-dessus est le constructeur.
 
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/7e5d754a-b3b1-449c-a1be-ab6e9a60f1d2?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20220628141218693" modified="20220628160810398" tags="[[1.02 Diagrammes de classes]]" title="1.2.02 Les relations de base">
+<div created="20220628141218693" modified="20220630180054256" tags="[[1.02 Diagrammes de classes]]" title="1.2.02 Les relations de base">
 <pre>Dans un diagramme de classes, il sera important de mettre les classes en relation les unes aux autres.
 
 Il existe plusieurs relations possibles entre des classes, mais les trois suivantes seront principalement utilisées dans le cours:
 
-* ''Dépendance / utilisation'': une relation de dépendance existe entre deux classes lorsque l'on peut dire qu'une classe dépend de ou utilise l'autre classe. On la représente par une tête de flèche pleine avec un trait pointillé qui va de la classe dépendante vers la classe utilisée. P.ex., la classe //Personne// ci-dessous dépend de (utilise) la classe //Langue// (pour sa propriété //~LangueMaternelle//):&lt;div&gt;
-[img width=600 [https://i.imgur.com/9KGUa3t.png]]
+* ''Dépendance / utilisation'': une relation de dépendance existe entre deux classes lorsque l'on peut dire qu'une classe dépend de ou utilise l'autre classe. On la représente par une tête de flèche pleine (ou en &quot;&gt;&quot;) avec un trait pointillé qui va de la classe dépendante vers la classe utilisée. P.ex., la classe //Personne// ci-dessous dépend de (utilise) la classe //Langue// (pour sa propriété //~LangueMaternelle//):&lt;div&gt;
+[img width=600 [https://i.imgur.com/9KGUa3t.png]]&lt;/div&gt;&lt;div&gt;
+
+&gt; Autre flèche possible: &amp;nbsp; &lt;img src=&quot;https://i.imgur.com/MdzLQgk.png&quot; style=&quot;width:100px; vertical-align: middle;&quot; /&gt;
 &lt;/div&gt;
 
 * ''Généralisation / héritage:'' une relation de généralisation (ou d'héritage) existe lorsqu'une classe hérite (est un enfant) d'une autre classe. On la représente par une tête de flèche vide avec un trait plein qui va de la classe héritière (enfant) vers la classe générale (parent); on l'utilise quand on peut dire qu'une classe «est un» de l'autre classe (p.ex., une Bicyclette //est un// Vehicule).&lt;div&gt;
